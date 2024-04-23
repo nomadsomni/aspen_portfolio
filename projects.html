@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szczegóły Projektu - Nomad Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+ 
+@keyframes slideFadeIn {
+  0% {
+    transform: translateX(50%); /* Start off-screen to the left */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0); /* End at its final position */
+    opacity: 1; /* Fade to fully opaque */
+  }
+  
+}
+
+body { padding-top: 4.5rem; }
+        .container { max-width: 40em; }
+        .project-image { width: 100%; height: auto; margin-bottom: 20px; }
+  /* Add this to your CSS file or within a <style> tag in your HTML file */
+
+.dark-box {
+  width: 500px; /* Set the width of your box */
+  height: 100px; /* Set the height of your box */
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+  color: white; /* Text color */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  position: absolute; /* Position it absolutely within its parent */
+  right: 0; /* Start at the left edge of the parent */
+  animation: slideFadeIn 1s ease-in-out forwards; /* Apply the animation */
+}
+.dark-box_left_small{
+  width: 500px; /* Set the width of your box */
+  height: auto; /* Set the height of your box */
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+  background-image: url("photos/OIG2\ \(2\).jpg");
+  color: white; /* Text color */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  position: absolute; /* Position it absolutely within its parent */
+  nav-left: 0; /* Start at the left edge of the parent */
+  animation: slideFadeIn 2s ease-in-out forwards; /* Apply the animation */
+}
+.project_id_right{
+                  background-color: rgba(255, 255, 255, 0.5);
+                  border-radius: 10px;
+                  width: 555px;
+                  height: 230px;
+                  padding: 20px;
+                  text-align: start;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover; /* Sets the background image */
+                  color: rgba(255, 255, 255, 0.5); /* Sets the text color to white for contrast */
+
+              }
+              .btn-orange{
+                      background-color: rgba(255, 102, 0, 0.63); /* Sets the background color of the navbar, jumbotron, and footer to red */
+                      color: rgba(255, 255, 255, 0.5); /* Sets the text color to white for contrast */
+                  }
+                  .btn-gray{
+                      background-color: rgba(0, 0, 0, 0.5); /* Sets the background color of the navbar, jumbotron, and footer to red */
+                      color: rgba(255, 255, 255, 0.5); /* Sets the text color to white for contrast */
+                  }
+    </style>
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Nomad</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <main role="main" class="container dark-box_quick">
+        <div class="dark-box" class="mt-5">aspen_codes:: PORTFOLIO_PROJECT
+        <p class="lead">Krótki opis projektu i użytych technologii.</p>
+        <div class="col-md-6 dark-box_left_small" style="top: 620px; left: -900px;">
+            <h2><b>about_me</b></h2>
+            <p>aspen_codes:: PORTFOLIO_ABOUT</p>
+            <p><a class="btn btn-secondary" href="XVODE.HTML" role="button" style=color:yellowgreen>#CONTACT</a></p>
+        </div>
+    </div>
+    <div
+            class="col-md-6 "><div class="project_id_right banner"
+            style="background-image: url(/photos/orange_detail.jpg);"
+            href="/projects/project_id2.html"
+            role="banner"
+            
+          >
+            <h2 style="background-color: rgba(255, 102, 0, 0.63)">
+              aspen_codes::
+            </h2>
+            <p style="color: rgba(0, 0, 0, 0.5); background-color: rgba(255, 102, 0, 0.63);">aspen_codes:: PORTFOLIO_PROJECT_ID2</p>
+            <p><a class="btn btn-orange" href="/projects/project_id2.html" role="button"
+                >#AVALANCHE</a></div>
+                
+            </p>
+          </div>
+          
+        <p>Tutaj możesz umieścić bardziej szczegółowy opis projektu, w tym wyzwania, które napotkałeś, rozwiązania, które zastosowałeś, i to, czego się nauczyłeś. Możesz również wspomnieć o narzędziach i technologiach, które były użyte w projekcie.</p></div>
+        <div
+            class="col-md-6 "><div class="project_id_right banner"
+            style="background-image: url(/photos/YINGYANG.jpg)"
+            href="/projects/project_id2.html"
+            role="banner"
+            
+          >
+            <h2 style="background-color: rgba(41, 41, 41, 0.699); ">
+              aspen_codes::
+            </h2>
+            <p style="color: rgba(180, 180, 180, 0.753); ; background-color: rgba(0, 0, 0, 0.5);">aspen_codes:: PORTFOLIO_PROJECT_ID4</p>
+            <p><a class="btn btn-gray" href="/projects/project_id4.html" role="button"
+                >#AVALANCHE</a></div>
+                
+            </p>
+          </div>
+        
+          <p><a class="btn btn-secondary" href="index.html" role="button">Powrót do portfolio</a></p>
+    </main>
+
+    <footer class="container">
+        <p>© Nomad Somni 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
